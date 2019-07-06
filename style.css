@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-family: ‘Arial’, ‘Helvetica Neue’, Helvetica, sans-serif;  
+    font-size: 18px;
+    widows: 960px;
+    line-height: 32px;
+    background:#777;
+    color: #777;
+  }
+  h1{
+    color: #777;
+    background: #ebebeb;
+
+  }
+
+  p{
+    color: #777;
+    background: #ebebeb;
+  }
+
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: ebebeb;
+  }
+  
+  section {
+    background: #ebebeb;
+    padding: 20px;
+     margin-bottom: 20px;
+     color: white;
+     
+  }
+  
+  #left {
+  
+    float:left;
+    color:white;
+    width:  495px;
+    background:#30948D;
+  }
+  
+  #middle {
+    float:left;
+    color:white;
+    width:  495px;
+    background:#9E1212;
+  }
+  
+  #right {
+    float:left;
+    width:  495px;
+    color:white;
+    background:#30948D;
+  
+  }
+  
+  #full {
+    
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    color: #fff;
+    background:#394549;
+  }  
+  
+  #division {
+      padding: 20px;
+      margin-top: 20px;
+      background: #214fb3;
+      float:right;
+      width: 33%;
+    height: 500px;
+    }
+  
+  
+  aside {
+    float: right;
+    width: 33%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 30px;
+    text-decoration-color: white;
+    background: #ebebeb;
+    border: 1px solid #eee;
+  }
+  
+  footer {
+    padding: 20px;
+    clear: both;
+    background: #ebebeb;
+  }
+
+  
+  @media only screen and (max-width: 980px) {
+ 
+  }
+  @media only screen and (max-width: 768px) {
+ 
+  }
+  @media only screen and (max-width: 640px) {
+  
+  }
+  
